@@ -1,0 +1,1315 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='kmf_survival_probabilities' inline='true' name='federated.0ainx3i0m5v0591h8je4d1ogahwy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='kmf_survival_probabilities' name='textscan.0rz5u791a6uzff1g5mwb50rbd8q3'>
+            <connection class='textscan' directory='/Users/nehalchigurupati/Documents/ShootingSlumps/Data' filename='kmf_survival_probabilities.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0rz5u791a6uzff1g5mwb50rbd8q3' name='kmf_survival_probabilities.csv' table='[kmf_survival_probabilities#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='F1' ordinal='0' />
+            <column datatype='real' name='NUM_GAMES' ordinal='1' />
+            <column datatype='real' name='SURV_PROB' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0rz5u791a6uzff1g5mwb50rbd8q3' name='kmf_survival_probabilities.csv' table='[kmf_survival_probabilities#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='F1' ordinal='0' />
+            <column datatype='real' name='NUM_GAMES' ordinal='1' />
+            <column datatype='real' name='SURV_PROB' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[kmf_survival_probabilities.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[kmf_survival_probabilities.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kmf_survival_probabilities.csv_E0DCC51FD6D2457AADD9D2AE24883D1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUM_GAMES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NUM_GAMES]</local-name>
+            <parent-name>[kmf_survival_probabilities.csv]</parent-name>
+            <remote-alias>NUM_GAMES</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kmf_survival_probabilities.csv_E0DCC51FD6D2457AADD9D2AE24883D1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SURV_PROB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SURV_PROB]</local-name>
+            <parent-name>[kmf_survival_probabilities.csv]</parent-name>
+            <remote-alias>SURV_PROB</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kmf_survival_probabilities.csv_E0DCC51FD6D2457AADD9D2AE24883D1D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Num Games' datatype='real' name='[NUM_GAMES]' role='measure' type='quantitative' />
+      <column caption='Surv Prob' datatype='real' name='[SURV_PROB]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='kmf_survival_probabilities.csv' datatype='table' name='[__tableau_internal_object_id__].[kmf_survival_probabilities.csv_E0DCC51FD6D2457AADD9D2AE24883D1D]' role='measure' type='quantitative' />
+      <mapped-images>
+        <mapped-image caption='Screenshot 2024-01-12 at 12.15.46 PM' expression='file:///Users/nehalchigurupati/Desktop/Screenshot 2024-01-12 at 12.15.46 PM.png' name='[MappedImage1]'>
+          <mapping bottom='0.0' left='0.0' right='10.0' top='100.0' x='[NUM_GAMES]' y='[NUM_GAMES]' />
+        </mapped-image>
+      </mapped-images>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='kmf_survival_probabilities.csv' id='kmf_survival_probabilities.csv_E0DCC51FD6D2457AADD9D2AE24883D1D'>
+            <properties context=''>
+              <relation connection='textscan.0rz5u791a6uzff1g5mwb50rbd8q3' name='kmf_survival_probabilities.csv' table='[kmf_survival_probabilities#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='real' name='F1' ordinal='0' />
+                  <column datatype='real' name='NUM_GAMES' ordinal='1' />
+                  <column datatype='real' name='SURV_PROB' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='three_pct_slump_curves' inline='true' name='federated.09c4r8k1qi4l6n13dirs908wl4bm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='three_pct_slump_curves' name='textscan.018piqs1gf0sm61bwho0h1ntnp63'>
+            <connection class='textscan' directory='/Users/nehalchigurupati/Documents/ShootingSlumps/Data' filename='three_pct_slump_curves.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='three_attempts_slump_curves' name='textscan.0qtzg541hz4ozc115bdy415lfism'>
+            <connection class='textscan' directory='/Users/nehalchigurupati/Documents/ShootingSlumps/Data' filename='three_attempts_slump_curves.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Fifteen Pct]' />
+            <value name='[Five Pct]' />
+            <value name='[Ten Pct]' />
+            <value name='[Twenty Pct]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[three_pct_slump_curves.csv].[fifteen_pct]' />
+              <field name='[three_pct_slump_curves.csv].[five_pct]' />
+              <field name='[three_pct_slump_curves.csv].[ten_pct]' />
+              <field name='[three_pct_slump_curves.csv].[twenty_pct]' />
+            </group>
+          </groups>
+          <relation connection='textscan.018piqs1gf0sm61bwho0h1ntnp63' name='three_pct_slump_curves.csv' table='[three_pct_slump_curves#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='real' name='slump_length' ordinal='1' />
+              <column datatype='real' name='five_pct' ordinal='2' />
+              <column datatype='real' name='ten_pct' ordinal='3' />
+              <column datatype='real' name='fifteen_pct' ordinal='4' />
+              <column datatype='real' name='twenty_pct' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Fifteen Pct]' />
+            <value name='[Five Pct]' />
+            <value name='[Ten Pct]' />
+            <value name='[Twenty Pct]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[three_pct_slump_curves.csv].[fifteen_pct]' />
+              <field name='[three_pct_slump_curves.csv].[five_pct]' />
+              <field name='[three_pct_slump_curves.csv].[ten_pct]' />
+              <field name='[three_pct_slump_curves.csv].[twenty_pct]' />
+            </group>
+          </groups>
+          <relation connection='textscan.018piqs1gf0sm61bwho0h1ntnp63' name='three_pct_slump_curves.csv' table='[three_pct_slump_curves#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='real' name='slump_length' ordinal='1' />
+              <column datatype='real' name='five_pct' ordinal='2' />
+              <column datatype='real' name='ten_pct' ordinal='3' />
+              <column datatype='real' name='fifteen_pct' ordinal='4' />
+              <column datatype='real' name='twenty_pct' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[three_pct_slump_curves.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[three_pct_slump_curves.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_pct_slump_curves.csv_1BE3DFBDE9E34D3D9C90B8C2DAED1D39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>slump_length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[slump_length]</local-name>
+            <parent-name>[three_pct_slump_curves.csv]</parent-name>
+            <remote-alias>slump_length</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_pct_slump_curves.csv_1BE3DFBDE9E34D3D9C90B8C2DAED1D39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_pct_slump_curves.csv_1BE3DFBDE9E34D3D9C90B8C2DAED1D39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_pct_slump_curves.csv_1BE3DFBDE9E34D3D9C90B8C2DAED1D39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Fifteen Pct&quot;' value='15%' />
+          <alias key='&quot;Five Pct&quot;' value='5%' />
+          <alias key='&quot;Ten Pct&quot;' value='10%' />
+          <alias key='&quot;Twenty Pct&quot;' value='20%' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='three_pct_slump_curves.csv' datatype='table' name='[__tableau_internal_object_id__].[three_pct_slump_curves.csv_1BE3DFBDE9E34D3D9C90B8C2DAED1D39]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='three_pct_slump_curves.csv' id='three_pct_slump_curves.csv_1BE3DFBDE9E34D3D9C90B8C2DAED1D39'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Fifteen Pct]' />
+                  <value name='[Five Pct]' />
+                  <value name='[Ten Pct]' />
+                  <value name='[Twenty Pct]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[three_pct_slump_curves.csv].[fifteen_pct]' />
+                    <field name='[three_pct_slump_curves.csv].[five_pct]' />
+                    <field name='[three_pct_slump_curves.csv].[ten_pct]' />
+                    <field name='[three_pct_slump_curves.csv].[twenty_pct]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.018piqs1gf0sm61bwho0h1ntnp63' name='three_pct_slump_curves.csv' table='[three_pct_slump_curves#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='real' name='slump_length' ordinal='1' />
+                    <column datatype='real' name='five_pct' ordinal='2' />
+                    <column datatype='real' name='ten_pct' ordinal='3' />
+                    <column datatype='real' name='fifteen_pct' ordinal='4' />
+                    <column datatype='real' name='twenty_pct' ordinal='5' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='three_attempts_slump_curves' inline='true' name='federated.1pmmcny1ldx4p71avrczm1efkmo3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='three_attempts_slump_curves' name='textscan.0j7xb6h15qj7f71gdatf10645yq6'>
+            <connection class='textscan' directory='/Users/nehalchigurupati/Documents/ShootingSlumps/Data' filename='three_attempts_slump_curves.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Bin Eight]' />
+            <value name='[Bin Five]' />
+            <value name='[Bin Four]' />
+            <value name='[Bin Nine]' />
+            <value name='[Bin One]' />
+            <value name='[Bin Seven]' />
+            <value name='[Bin Six]' />
+            <value name='[Bin Three]' />
+            <value name='[Bin Two]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[three_attempts_slump_curves.csv].[BIN_EIGHT]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_FIVE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_FOUR]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_NINE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_ONE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_SEVEN]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_SIX]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_THREE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_TWO]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0j7xb6h15qj7f71gdatf10645yq6' name='three_attempts_slump_curves.csv' table='[three_attempts_slump_curves#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='real' name='SLUMP_LENGTH' ordinal='1' />
+              <column datatype='real' name='BIN_ONE' ordinal='2' />
+              <column datatype='real' name='BIN_TWO' ordinal='3' />
+              <column datatype='real' name='BIN_THREE' ordinal='4' />
+              <column datatype='real' name='BIN_FOUR' ordinal='5' />
+              <column datatype='real' name='BIN_FIVE' ordinal='6' />
+              <column datatype='real' name='BIN_SIX' ordinal='7' />
+              <column datatype='real' name='BIN_SEVEN' ordinal='8' />
+              <column datatype='real' name='BIN_EIGHT' ordinal='9' />
+              <column datatype='real' name='BIN_NINE' ordinal='10' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Bin Eight]' />
+            <value name='[Bin Five]' />
+            <value name='[Bin Four]' />
+            <value name='[Bin Nine]' />
+            <value name='[Bin One]' />
+            <value name='[Bin Seven]' />
+            <value name='[Bin Six]' />
+            <value name='[Bin Three]' />
+            <value name='[Bin Two]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[three_attempts_slump_curves.csv].[BIN_EIGHT]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_FIVE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_FOUR]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_NINE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_ONE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_SEVEN]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_SIX]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_THREE]' />
+              <field name='[three_attempts_slump_curves.csv].[BIN_TWO]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0j7xb6h15qj7f71gdatf10645yq6' name='three_attempts_slump_curves.csv' table='[three_attempts_slump_curves#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='real' name='SLUMP_LENGTH' ordinal='1' />
+              <column datatype='real' name='BIN_ONE' ordinal='2' />
+              <column datatype='real' name='BIN_TWO' ordinal='3' />
+              <column datatype='real' name='BIN_THREE' ordinal='4' />
+              <column datatype='real' name='BIN_FOUR' ordinal='5' />
+              <column datatype='real' name='BIN_FIVE' ordinal='6' />
+              <column datatype='real' name='BIN_SIX' ordinal='7' />
+              <column datatype='real' name='BIN_SEVEN' ordinal='8' />
+              <column datatype='real' name='BIN_EIGHT' ordinal='9' />
+              <column datatype='real' name='BIN_NINE' ordinal='10' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[three_attempts_slump_curves.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[three_attempts_slump_curves.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_attempts_slump_curves.csv_8B06569D3C2F41E1A6ECA9500E8F4127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SLUMP_LENGTH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SLUMP_LENGTH]</local-name>
+            <parent-name>[three_attempts_slump_curves.csv]</parent-name>
+            <remote-alias>SLUMP_LENGTH</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_attempts_slump_curves.csv_8B06569D3C2F41E1A6ECA9500E8F4127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_attempts_slump_curves.csv_8B06569D3C2F41E1A6ECA9500E8F4127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[three_attempts_slump_curves.csv_8B06569D3C2F41E1A6ECA9500E8F4127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Bin Eight&quot;' value='+1.5' />
+          <alias key='&quot;Bin Five&quot;' value='0' />
+          <alias key='&quot;Bin Four&quot;' value='-0.5' />
+          <alias key='&quot;Bin Nine&quot;' value='+2' />
+          <alias key='&quot;Bin One&quot;' value='-2' />
+          <alias key='&quot;Bin Seven&quot;' value='+1' />
+          <alias key='&quot;Bin Six&quot;' value='+0.5' />
+          <alias key='&quot;Bin Three&quot;' value='-1' />
+          <alias key='&quot;Bin Two&quot;' value='-1.5' />
+        </aliases>
+      </column>
+      <column caption='Slump Length' datatype='real' name='[SLUMP_LENGTH]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='three_attempts_slump_curves.csv' datatype='table' name='[__tableau_internal_object_id__].[three_attempts_slump_curves.csv_8B06569D3C2F41E1A6ECA9500E8F4127]' role='measure' type='quantitative' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Pivot Field Names:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bin Eight&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bin One&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Bin Nine&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Bin Two&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bin Six&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bin Four&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Bin Seven&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bin Five&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Bin Three&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='three_attempts_slump_curves.csv' id='three_attempts_slump_curves.csv_8B06569D3C2F41E1A6ECA9500E8F4127'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Bin Eight]' />
+                  <value name='[Bin Five]' />
+                  <value name='[Bin Four]' />
+                  <value name='[Bin Nine]' />
+                  <value name='[Bin One]' />
+                  <value name='[Bin Seven]' />
+                  <value name='[Bin Six]' />
+                  <value name='[Bin Three]' />
+                  <value name='[Bin Two]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[three_attempts_slump_curves.csv].[BIN_EIGHT]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_FIVE]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_FOUR]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_NINE]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_ONE]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_SEVEN]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_SIX]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_THREE]' />
+                    <field name='[three_attempts_slump_curves.csv].[BIN_TWO]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.0j7xb6h15qj7f71gdatf10645yq6' name='three_attempts_slump_curves.csv' table='[three_attempts_slump_curves#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='real' name='SLUMP_LENGTH' ordinal='1' />
+                    <column datatype='real' name='BIN_ONE' ordinal='2' />
+                    <column datatype='real' name='BIN_TWO' ordinal='3' />
+                    <column datatype='real' name='BIN_THREE' ordinal='4' />
+                    <column datatype='real' name='BIN_FOUR' ordinal='5' />
+                    <column datatype='real' name='BIN_FIVE' ordinal='6' />
+                    <column datatype='real' name='BIN_SIX' ordinal='7' />
+                    <column datatype='real' name='BIN_SEVEN' ordinal='8' />
+                    <column datatype='real' name='BIN_EIGHT' ordinal='9' />
+                    <column datatype='real' name='BIN_NINE' ordinal='10' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Probability of exiting shooting slump</run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>( players that average 250+ 3PA per season)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='kmf_survival_probabilities' name='federated.0ainx3i0m5v0591h8je4d1ogahwy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ainx3i0m5v0591h8je4d1ogahwy'>
+            <column caption='Num Games' datatype='real' name='[NUM_GAMES]' role='measure' type='quantitative' />
+            <column caption='Surv Prob' datatype='real' name='[SURV_PROB]' role='measure' type='quantitative' />
+            <column-instance column='[NUM_GAMES]' derivation='Sum' name='[sum:NUM_GAMES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SURV_PROB]' derivation='Sum' name='[sum:SURV_PROB:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]' field-type='quantitative' max='84.086541095890141' min='4.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]' scope='cols' value='Length of shooting slump (number of games)' />
+            <format attr='title' class='0' field='[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:SURV_PROB:qk]' scope='rows' value='Probability that slump continues' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dotted' />
+            <format attr='stroke-color' id='refline0' value='#8cd17d' />
+            <format attr='stroke-size' id='refline0' value='4' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+            <reference-line axis-column='[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label-type='automatic' scope='per-table' value='32.1' value-column='[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='633' />
+                <format attr='maxwidth' value='633' />
+                <format attr='minheight' value='421' />
+                <format attr='maxheight' value='421' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-color' value='#f17b7967' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:SURV_PROB:qk]</rows>
+        <cols>[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]</cols>
+        <annotations>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true'>There is a 95% chance that a shooting slump resolves within 32 games.</run>
+              <run>Æ </run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='34.817148830247518'>
+                  <node-reference>
+                    <axis>[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.91749999999999998'>
+                  <node-reference>
+                    <axis>[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:SURV_PROB:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='83.515853154589266'>
+                  <node-reference>
+                    <axis>[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:NUM_GAMES:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.73249999999999993'>
+                  <node-reference>
+                    <axis>[federated.0ainx3i0m5v0591h8je4d1ogahwy].[sum:SURV_PROB:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{2C715414-2B1D-45C1-8088-A48ED221DA8D}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Relationship between severity and length of shooting slumps</run>
+            <run>Æ&#10; </run>
+            <run fontsize='10'>Severity determined by difference between career and slump 3PT%</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='three_pct_slump_curves' name='federated.09c4r8k1qi4l6n13dirs908wl4bm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09c4r8k1qi4l6n13dirs908wl4bm'>
+            <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Fifteen Pct&quot;' value='15%' />
+                <alias key='&quot;Five Pct&quot;' value='5%' />
+                <alias key='&quot;Ten Pct&quot;' value='10%' />
+                <alias key='&quot;Twenty Pct&quot;' value='20%' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column datatype='real' name='[slump_length]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[slump_length]' derivation='Sum' name='[sum:slump_length:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:Pivot Field Values:qk]' scope='rows' value='Probability of slump continuing' />
+            <format attr='title' class='0' field='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' scope='cols' value='Length of slump (# of games)' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dotted' />
+            <format attr='stroke-color' id='refline0' value='#4e79a784' />
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-color' id='refline1' value='#f28e2b89' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dotted' />
+            <format attr='stroke-size' id='refline1' value='4' />
+            <format attr='line-visibility' id='refline2' value='on' />
+            <format attr='line-pattern-only' id='refline2' value='dotted' />
+            <format attr='stroke-size' id='refline2' value='4' />
+            <format attr='stroke-color' id='refline2' value='#e1575989' />
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='line-visibility' id='refline3' value='on' />
+            <format attr='line-pattern-only' id='refline3' value='dotted' />
+            <format attr='stroke-size' id='refline3' value='4' />
+            <format attr='stroke-color' id='refline3' value='#49989486' />
+            <format attr='fill-above' id='refline3' value='#00000000' />
+            <format attr='fill-below' id='refline3' value='#00000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[none:Pivot Field Names:nk]' value='3PT% drop' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[none:Pivot Field Names:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label-type='none' scope='per-table' value='41.0' value-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' z-order='1' />
+            <reference-line axis-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' enable-instant-analytics='true' formula='constant' id='refline1' label-type='none' scope='per-table' value='32.0' value-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' z-order='2' />
+            <reference-line axis-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' enable-instant-analytics='true' formula='constant' id='refline2' label-type='none' scope='per-table' value='26.0' value-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' z-order='3' />
+            <reference-line axis-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' enable-instant-analytics='true' formula='constant' id='refline3' label-type='none' scope='per-table' value='21.0' value-column='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]' z-order='4' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='807' />
+                <format attr='maxwidth' value='807' />
+                <format attr='minheight' value='642' />
+                <format attr='maxheight' value='642' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]</cols>
+        <annotations>
+          <annotation class='point' id='1' mark-position='1' pullback='0' text-width='273'>
+            <formatted-text>
+              <run>95% probability of 5% slump resolving within 41 games</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='41.310037406483794'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.71298115362848125'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='419' y='2' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='272'>
+            <formatted-text>
+              <run>95% probability of 10% slump resolving within 32 games</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='31.84694513715711'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.61876161803677987'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='362' y='1' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='278'>
+            <formatted-text>
+              <run>95% probability of 15% slump resolving within 26 games</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='25.295573566084791'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.53648540385811128'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='327' y='1' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='0' text-width='279'>
+            <formatted-text>
+              <run>95% probability of 20% slump resolving within 21 games</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='20.382044887780552'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:slump_length:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.450228082541765'>
+                  <node-reference>
+                    <axis>[federated.09c4r8k1qi4l6n13dirs908wl4bm].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='301' y='0' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{C7A627D2-EA78-4957-828A-B25EC5A085C8}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C2823212-7619-4241-8C07-4A75179B1011}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>The relationship between change in 3PA /game and length of shooting slump</run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>Change in 3PA/game measured by slump 3PA/game - career 3PA/game </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='three_attempts_slump_curves' name='federated.1pmmcny1ldx4p71avrczm1efkmo3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pmmcny1ldx4p71avrczm1efkmo3'>
+            <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Bin Eight&quot;' value='+1.5' />
+                <alias key='&quot;Bin Five&quot;' value='0' />
+                <alias key='&quot;Bin Four&quot;' value='-0.5' />
+                <alias key='&quot;Bin Nine&quot;' value='+2' />
+                <alias key='&quot;Bin One&quot;' value='-2' />
+                <alias key='&quot;Bin Seven&quot;' value='+1' />
+                <alias key='&quot;Bin Six&quot;' value='+0.5' />
+                <alias key='&quot;Bin Three&quot;' value='-1' />
+                <alias key='&quot;Bin Two&quot;' value='-1.5' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column caption='Slump Length' datatype='real' name='[SLUMP_LENGTH]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SLUMP_LENGTH]' derivation='Sum' name='[sum:SLUMP_LENGTH:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[none:Pivot Field Names:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Bin One&quot;</bucket>
+              <bucket>&quot;Bin Two&quot;</bucket>
+              <bucket>&quot;Bin Three&quot;</bucket>
+              <bucket>&quot;Bin Four&quot;</bucket>
+              <bucket>&quot;Bin Five&quot;</bucket>
+              <bucket>&quot;Bin Six&quot;</bucket>
+              <bucket>&quot;Bin Eight&quot;</bucket>
+              <bucket>&quot;Bin Seven&quot;</bucket>
+              <bucket>&quot;Bin Nine&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]' scope='rows' value='Probability of slump continuing' />
+            <format attr='title' class='0' field='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]' scope='cols' value='Slump Length (# of games)' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dotted' />
+            <format attr='stroke-color' id='refline0' value='#00000084' />
+            <format attr='stroke-size' id='refline0' value='4' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[none:Pivot Field Names:nk]' value='Change in 3PA/game' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='body-type' id='annotation_1' value='none' />
+            <format attr='fill-color' id='annotation_4' value='#f9e9e0' />
+            <format attr='fill-color' id='annotation_3' value='#e8edda' />
+            <format attr='fill-color' id='annotation_6' value='#dfedeb' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[none:Pivot Field Names:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label-type='automatic' scope='per-table' value='37.0' value-column='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='circle' />
+                <format attr='size' value='0.71364641189575195' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='787' />
+                <format attr='maxwidth' value='787' />
+                <format attr='minheight' value='624' />
+                <format attr='maxheight' value='624' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</cols>
+        <annotations>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true'>After 37 games, the probability of a shooting slump continuing is:</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='38.579262437597571'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.80921246428457183'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='131.96930626519656'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.70830677658370333'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='3' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true'>9%</run>
+              <run> for players who shoot </run>
+              <run bold='true'>two fewer threes </run>
+              <run>per game</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='49.870753882748083'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.71811705177684337'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='130.55786983455275'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.64243778600119184'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='4' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true'>5%</run>
+              <run> for players who shoot the </run>
+              <run bold='true'>same number of threes </run>
+              <run>per game</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='41.730245488949933'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.61580989619124049'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='136.55477653303706'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.53732769464612051'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='6' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true'>2%</run>
+              <run> for players who shoot</run>
+              <run bold='true'> two more threes </run>
+              <run>per game</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='50.811711503177285'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.4994880617582948'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='126.32356054262132'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:SLUMP_LENGTH:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.42380879598264337'>
+                  <node-reference>
+                    <axis>[federated.1pmmcny1ldx4p71avrczm1efkmo3].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{6BE05B67-3846-4397-BA5D-163DED9E313E}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5BACF3B2-31BB-489F-A08F-DBC4AABCDD73}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A40D62B5-84F1-40AA-8C74-6305EFC1B0B7}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09c4r8k1qi4l6n13dirs908wl4bm].[none:Pivot Field Names:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B61CDF74-CC4B-4C88-8926-846B3E678BA0}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D09BCCC6-A3A0-466F-BC90-708F73355B59}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pmmcny1ldx4p71avrczm1efkmo3].[none:Pivot Field Names:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{12C48A35-22E2-42AE-B8E3-8230AA5CCE99}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F7583404-5C22-4D8F-8AF2-2F900C389F2D}' />
+    </window>
+  </windows>
+</workbook>

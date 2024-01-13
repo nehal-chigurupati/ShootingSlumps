@@ -13,6 +13,10 @@ def three_attempts_per_season(career_stats, excluded_season="2023-24"):
 def get_career_3pt_pct(all_season_data):
     return float(np.sum(all_season_data["FG3M"])) / float(np.sum(all_season_data["FG3A"]))
 
+def get_career_3pa_per_game(all_game_logs):
+    return float(np.sum(all_game_logs["FG3A"])) / float(len(all_game_logs))
+
+
 def detect_shooting_slumps(game_data, all_season_data):
     """
     #Calculate slump threshold
